@@ -28,7 +28,7 @@ const Typewriter = (props) => {
       clicketyClack(props.text, minTypeSpeed, maxTypeSpeed, initDelay)
     }, [])
 
-    useEffect(() => { // Dismount when the page changes, clearing timeout from click clack
+    useEffect(() => {
       return () => {
         clearTimeout()
       }
@@ -40,12 +40,6 @@ const Typewriter = (props) => {
       <span>&nbsp;</span>
     </div>
     )
-}
-
-Typewriter.defaultProps = {
-  minTypeSpeed: 50,
-  maxTypeSpeed: 90,
-  initDelay: 700,
 }
 
 export default Typewriter

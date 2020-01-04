@@ -15,7 +15,7 @@ export default [
     },
     {
       input: 'Kyle.interests',
-      return: '["gaming", "sports", "cars", "creating"]',
+      return: '["gaming", "basketball", "ice hockey", "cars", "creating"]',
     },
     {
       input: 'Kyle.education',
