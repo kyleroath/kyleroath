@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+.footer--title {
+    font-family: 'Camphor', Open Sans, Segoe UI, sans-serif;
+    font-size: 1.5rem;
+    padding: .5rem;
+    color: $grey;
+}
+
+.footer--icon {
+    justify-content: space-between;
+    max-width: 250px;
+}
+
+.footer--tm {
+    margin-top: 4vh;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-family: 'Camphor', Open Sans, Segoe UI, sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    color: $grey;
+  }
+  
