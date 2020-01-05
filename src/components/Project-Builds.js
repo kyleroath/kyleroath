@@ -27,22 +27,24 @@ const ProjectLinks = (props) => {
   const { github, preview } = props.links
 
     return (
-        <div className="project-links">
-          <a href={preview}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link"
-          >
-            Demo <FontAwesomeIcon icon={['fas', 'desktop']}/>
-          </a>
-          <a href={github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link secondary"
-          >
-            <FontAwesomeIcon icon={['fab', 'github']} /> Source
-          </a>
-        </div>
+      <div>
+          <div className="project-links">
+              { preview && <a href={preview}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                Demo <FontAwesomeIcon icon={['fas', 'desktop']}/>
+              </a> }
+              <a href={github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link secondary"
+              >
+                <FontAwesomeIcon icon={['fab', 'github']} /> Source
+              </a>
+            </div>
+      </div>
     )
 }
 

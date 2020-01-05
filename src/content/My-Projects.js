@@ -5,12 +5,11 @@ export default [
   {
     title: 'Portfolio',
     description:
-      'This portfolio site. This site was built using React and utilizes great tools such as React-Router. The portfolio was a great experience using additional visual tools in Framer Motion and preprocessors in Sass.',
+      'My portfolio site source. This site was built using React and utilizes great tools such as React-Router. The portfolio was a great experience using additional visual tools in Framer Motion and preprocessors in Sass.',
     skills: ['JavaScript','React','React-Router','SASS','Webpack'],
     image: portsite,
     links: {
-      github: 'https://github.com/kyleroath/kyleroath',
-      preview: 'https://kyleroath.com/',
+      github: 'https://github.com/kyleroath/kyleroath'
     },
   },
   {
