@@ -1,7 +1,19 @@
 import ultclock from '../images/ultclockfix.png';
 import portsite from '../images/portfoliosite.png'
+import cvdsite from '../images/covidsite.png'
 
 export default [
+  {
+    title: 'Covid-19 Tracker',
+    description:
+      'With the unfortunate global pandemic known as Covid-19, I found myself constantly searching the net for latest numbers globally and per country. This project was the perfect chance to further work with React, Axios and an open source API!',
+    skills: ['JavaScript','React','Axios','Material-UI','Create-React-App'],
+    image: cvdsite,
+    links: {
+      github: 'https://github.com/kyleroath/covid-19-tracker',
+      preview: 'https://kyleroath.com/covidtracker/',
+    },
+  },
   {
     title: 'Portfolio',
     description:

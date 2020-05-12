@@ -9,9 +9,9 @@
 @import './Components/transition';
 
 @font-face {
-    font-family: 'Monaco';
-    src: url('./fonts/monaco-webfont.woff') format('woff');
-  }
+  font-family: 'Jost';
+  src: url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+}
   
   body {
     background-color: $backgroundColor;
